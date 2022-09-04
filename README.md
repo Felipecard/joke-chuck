@@ -1,7 +1,8 @@
 # Joke Chuck
 This web site was crated for study and entertainment purposes.
 
-https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png
+![chuckNorris]([caminho até a imagem](https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png))
+
 
 ## Getting started 
 Fork and clone this repository to your computer
