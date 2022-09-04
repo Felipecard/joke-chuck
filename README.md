@@ -1,12 +1,12 @@
 # Joke Chuck
 This web site was crated for study and entertainment purposes.
 
-![](joke-chuck/src/assets/img/fotoArma-removebg-preview.png)
+!{](joke-chuck/src/assets/img/fotoArma-removebg-preview.png)
 
 
 ## Getting started 
 Fork and clone this repository to your computer
-$ git clone
+```git clone```
 
 Download Node.js and install it.
 
