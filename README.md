@@ -1,7 +1,7 @@
 # Joke Chuck
 This web site was crated for study and entertainment purposes.
 
-imagem
+https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png
 
 ## Getting started 
 Fork and clone this repository to your computer
@@ -17,8 +17,17 @@ Open localhost:3000 on your browser and see the Joke Chuck
 
 
 ## Techs used
+Javascript
 
+Node.js
+
+Express
+
+HTML
+
+CSS
 
 ## chucknorris.io
 Is a free JSON API for hand curated Chuck Norris facts.
+
 https://api.chucknorris.io/
