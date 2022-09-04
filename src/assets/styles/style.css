@@ -1,0 +1,126 @@
+
+body {
+    background-color: #EDDFB3;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    width: 100%;
+}
+
+.title {
+    width: 350px;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+ol {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+li {
+    height: 24px;
+    width: 54px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px;
+    background-color: #1CD6CE;
+    list-style-type: none;
+    padding-top: 5px;
+    
+    border: #293462;
+    border-radius: 5px;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+li:hover {
+    background-color: #f5e0e0;
+}
+
+.sectionSearchJoke {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonSearch {
+    height: 38px;
+    width: 76px;
+    
+    cursor: pointer;
+    background-color: #03bbfa;
+
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 20px 10px;
+}
+
+.buttonSearch:hover {
+    opacity: 0.6;
+    transition: 400ms;
+}
+
+.buttonLucky {
+    margin-top: 81px;
+    margin-left: -78px;
+    height: 31px;
+    width: 140px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FF5D5D;
+    color: white;
+    font-size: 14px;
+}
+
+.buttonLucky:hover {
+    transition: 400ms;
+    background-color: #e6acac;
+}
+
+.searchJoke {
+    width: 170px;
+    height: 120px;
+    border-radius: 50%;
+    font-size: 18px;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.sectionReadJoke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.chuckNorrisImage {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+.readerJoke {
+    width: 47%;
+    margin-top: -45px;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    padding: 76px 94px;
+    box-shadow: 8px 8px 16px rgba(0,0,0 0.1);
+    border-style: dashed;
+}
+
+.jokeText {
+    font-size: 18px;
+}

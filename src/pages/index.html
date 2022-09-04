@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke Chuck</title>
+
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="icon" href="../assets/img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header>
+        <img class="title" src="../assets/img/title.jpg" alt="Title of WebSite">
+    </header>
+
+    <h4>Click on an example or write in the balloon:</h4>
+    <ol>
+        <li onclick="exempleButton('history')">History</div>
+        <li onclick="exempleButton('food')">Food</li>
+        <li onclick="exempleButton('travel')">Travel</li>
+        <li onclick="exempleButton('sport')">Sport</li>
+        
+    </ol>
+    
+    <section class="sectionSearchJoke">
+        <div id="baloonSearchJoke">
+            <input class="searchJoke" type="text" id="input" placeholder="Search a joke...">
+        </div>
+        <button class="buttonSearch" id="send" onclick="searchJoke()">Search!</button>
+        <button class="buttonLucky" onclick="searchLucky()">Fury Chuck Search!</button>
+        
+    </section>
+    
+    <section class="sectionReadJoke">
+        <img class="chuckNorrisImage" src="../assets/img/tela2.png" alt="Chuck Norris Image">
+        <div class="readerJoke" id="screen"></div>
+    </section>
+
+
+
+    <script src="../assets/scripts/index.js"></script>
+</body>
+</html>
