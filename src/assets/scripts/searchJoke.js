@@ -8,6 +8,7 @@ const searchJoke = () => {
 
     .then(response => {
         if(!response.ok) {
+            document.querySelector('#screen').style.backgroundColor = 'white'
             screen.innerHTML = `<p class="jokeText">Category not found, try another one or search with Chuck Norris fury!</p>`   
         } 
     
@@ -21,8 +22,10 @@ const searchJoke = () => {
 
     console.log(joke)
     if(joke === undefined) {
+        document.querySelector('#screen').style.backgroundColor = 'white'
         screen.innerHTML = `<p class="jokeText">Category not found, try another one or search with Chuck Norris fury!`
     } else {
+        document.querySelector('#screen').style.backgroundColor = 'white'
         screen.innerHTML = `<p class="jokeText"> 🧔🏼 ${joke}</p>`     
     }
 
