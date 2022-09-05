@@ -22,6 +22,13 @@ Run the project locally
 Open localhost:3000 on your browser and see the Joke Chuck
 
 
+## Tests
+Jest was used for unit tests
+
+To test the functions you need to use the command:
+
+```npm run test```
+
 ## Techs used
 Javascript
 

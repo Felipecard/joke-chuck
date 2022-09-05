@@ -40,3 +40,5 @@ const furySearch  = () => {
 .catch(err => console.log(err))
 
 }
+
+module.exports = { furySearch }

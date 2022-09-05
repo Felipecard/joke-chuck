@@ -10,6 +10,7 @@ const searchJoke = () => {
         if(!response.ok) {
             screen.innerHTML = `<p class="jokeText">Category not found, try another one or search with Chuck Norris fury!</p>`   
         } 
+    
         return response.json()
     })
         
@@ -33,3 +34,6 @@ const searchJoke = () => {
 .catch(err => console.log(err))
 
 }
+
+
+module.exports = { searchJoke }
