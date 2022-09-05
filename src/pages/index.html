@@ -20,22 +20,22 @@
         <img class="title" src="../assets/img/title.jpg" alt="Title of WebSite">
     </header>
 
-    <h4>Click on an example or write in the balloon:</h4>
-    <ol>
-        <li onclick="exempleButton('history')">History</div>
-        <li onclick="exempleButton('food')">Food</li>
-        <li onclick="exempleButton('travel')">Travel</li>
-        <li onclick="exempleButton('sport')">Sport</li>
-        
-    </ol>
+    <section>
+        <h4>Click on an example or write in the balloon:</h4>
+        <ol>
+            <li onclick="exempleButton('history')">History</div>
+            <li onclick="exempleButton('food')">Food</li>
+            <li onclick="exempleButton('travel')">Travel</li>
+            <li onclick="exempleButton('sport')">Sport</li>  
+        </ol>
+    </section>
     
     <section class="sectionSearchJoke">
         <div id="baloonSearchJoke">
             <input class="searchJoke" type="text" id="input" placeholder="Search a joke...">
         </div>
         <button class="buttonSearch" id="send" onclick="searchJoke()">Search!</button>
-        <button class="buttonLucky" onclick="searchLucky()">Fury Chuck Search!</button>
-        
+        <button class="buttonLucky" onclick="furySearch()">Fury Chuck Search!</button>
     </section>
     
     <section class="sectionReadJoke">
@@ -45,6 +45,8 @@
 
 
 
-    <script src="../assets/scripts/index.js"></script>
+    <script src="../assets/scripts/furySearch.js"></script>
+    <script src="../assets/scripts/searchJoke.js"></script>
+    <script src="../assets/scripts/smallFunctions.js"></script>
 </body>
 </html>
