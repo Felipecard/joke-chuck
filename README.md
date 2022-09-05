@@ -1,7 +1,7 @@
 # Joke Chuck
 This web site was crated for study and entertainment purposes.
 
-![]](https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png)
+![](https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png)
 
 
 ## Getting started 
