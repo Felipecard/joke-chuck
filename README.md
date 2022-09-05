@@ -1,6 +1,8 @@
 # Joke Chuck
 This web site was crated for study and entertainment purposes.
 
+This page is used to research Chuck Norris jokes. To do deeper research, you need to use Chuck Norris' fury.
+
 ![](https://github.com/Felipecard/joke-chuck/blob/main/src/assets/img/fotoArma-removebg-preview.png)
 
 
@@ -9,13 +11,13 @@ Fork and clone this repository to your computer:
 
 ```git clone```
 
-Download Node.js and install it:
+Download Node.js and install it
 
-Intall NPM on the basis of the project
+Intall NPM on the basis of the project:
 
 ```npm install```
 
-Run the project locally
+Run the project locally:
 
 ```npm start```
 
@@ -29,6 +31,7 @@ To test the functions you need to use the command:
 
 ```npm run test```
 
+
 ## Techs used
 Javascript
 
@@ -39,6 +42,7 @@ Express
 HTML
 
 CSS
+
 
 ## chucknorris.io
 Is a free JSON API for hand curated Chuck Norris facts.
